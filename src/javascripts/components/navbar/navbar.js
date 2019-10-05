@@ -3,7 +3,7 @@ import utilities from '../../helpers/utilities';
 import './navbar.scss';
 
 const loadNavbar = () => {
-    const domString = `
+  const domString = `
     <nav>
       <a href="#" class="brand">Hogwarts</a>
       <ul>
@@ -13,7 +13,7 @@ const loadNavbar = () => {
       </ul>
     </nav>
     `;
-    utilities.printToDom('nav-container', domString);
+  utilities.printToDom('nav-container', domString);
 };
 
 export default { loadNavbar };
